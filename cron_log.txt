@@ -1,0 +1,64 @@
+Traceback (most recent call last):
+  File "/Users/alexadraposes/exelant-news-bot/gsheet_auth.py", line 31, in <module>
+    append_test_row()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/alexadraposes/exelant-news-bot/gsheet_auth.py", line 25, in append_test_row
+    creds = authenticate()
+  File "/Users/alexadraposes/exelant-news-bot/gsheet_auth.py", line 18, in authenticate
+    flow = InstalledAppFlow.from_client_secrets_file('client_secret.json', SCOPES)
+  File "/Users/alexadraposes/exelant-news-bot/.venv/lib/python3.13/site-packages/google_auth_oauthlib/flow.py", line 198, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'client_secret.json'
+⚠️ Error logging to sheet: [Errno 2] No such file or directory: 'token.json'
+⚠️ Error logging to sheet: [Errno 2] No such file or directory: 'token.json'
+⚠️ Error logging to sheet: [Errno 2] No such file or directory: 'token.json'
+⚠️ Error logging to sheet: [Errno 2] No such file or directory: 'token.json'
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-flsd-1_23-cv-21253/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-flsd-0_22-cv-61136/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-flsd-9_23-cv-80992/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-flsd-1_24-cv-23649/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-ca11-24-12431/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-ca11-25-10429/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-ca11-25-10361/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-ca11-23-10534/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-ca11-25-10199/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-ca11-24-11836/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-ca11-24-11875/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-ca11-24-13166/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-ca11-24-11112/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-ca11-23-13025/context
+⏭️ Skipping media or metadata-only link: https://www.govinfo.gov/app/details/USCOURTS-ca11-23-13431/context
+⏭️ Skipping media or metadata-only link: https://www.flsenate.gov/Media/VideoPlayer?EventID=1_4xfwpotq-202503271900
+⏭️ Skipping media or metadata-only link: https://www.flsenate.gov/Media/VideoPlayer?EventID=1_zp1pj23y-202503271530
+⏭️ Skipping media or metadata-only link: https://www.flsenate.gov/Media/VideoPlayer?EventID=1_6lzzc253-202503271530
+⏭️ Skipping media or metadata-only link: https://www.flsenate.gov/Media/VideoPlayer?EventID=1_2ocsdkwz-202503271530
+⏭️ Skipping media or metadata-only link: https://www.flsenate.gov/Media/VideoPlayer?EventID=1_4xfwpotq-202503271530
+⏭️ Skipping media or metadata-only link: https://www.flsenate.gov/Media/VideoPlayer?EventID=1_zc8d1g0v-202503271300
+⏭️ Skipping media or metadata-only link: https://www.flsenate.gov/Media/VideoPlayer?EventID=1_6lzzc253-202503271230
+⏭️ Skipping media or metadata-only link: https://www.flsenate.gov/Media/VideoPlayer?EventID=1_4xfwpotq-202503271230
+⏭️ Skipping media or metadata-only link: https://www.flsenate.gov/Media/VideoPlayer?EventID=1_zp1pj23y-202503270930
+⏭️ Skipping media or metadata-only link: https://www.flsenate.gov/Media/VideoPlayer?EventID=1_nty0d3lq-202503270900
+⏭️ Skipping media or metadata-only link: https://www.flsenate.gov/Media/VideoPlayer?EventID=1_6lzzc253-202503270900
+⏭️ Skipping media or metadata-only link: https://www.flsenate.gov/Media/VideoPlayer?EventID=1_4xfwpotq-202503270800
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-28-25-florida-housing-finance-corporation-board-of-directors-meeting/?utm_source=rss&utm_medium=rss&utm_campaign=3-28-25-florida-housing-finance-corporation-board-of-directors-meeting
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-house-rules-ethics-committee/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-house-rules-ethics-committee
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/cu-202519/?utm_source=rss&utm_medium=rss&utm_campaign=cu-202519
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-house-health-care-facilities-systems-subcommittee/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-house-health-care-facilities-systems-subcommittee
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-house-transportation-economic-development-budget-subcommittee/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-house-transportation-economic-development-budget-subcommittee
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-house-state-administration-budget-subcommittee/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-house-state-administration-budget-subcommittee
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-house-education-administration-subcommittee/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-house-education-administration-subcommittee
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-senate-committee-on-fiscal-policy/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-senate-committee-on-fiscal-policy
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-house-budget-committee/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-house-budget-committee
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-house-ways-means-committee/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-house-ways-means-committee
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-press-availability-with-senate-president-ben-albritton/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-press-availability-with-senate-president-ben-albritton
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/representative-eskamani-anna-d-district-42-orlando-3-2/?utm_source=rss&utm_medium=rss&utm_campaign=representative-eskamani-anna-d-district-42-orlando-3-2
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/representative-eskamani-anna-d-district-42-orlando-4-2/?utm_source=rss&utm_medium=rss&utm_campaign=representative-eskamani-anna-d-district-42-orlando-4-2
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-press-conference-on-workforce-day-at-the-capitol/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-press-conference-on-workforce-day-at-the-capitol
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/representative-tant-allison-d-district-9-tallahassee-3/?utm_source=rss&utm_medium=rss&utm_campaign=representative-tant-allison-d-district-9-tallahassee-3
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-house-health-professions-programs-subcommittee/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-house-health-professions-programs-subcommittee
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/representative-tant-allison-d-district-9-tallahassee-4/?utm_source=rss&utm_medium=rss&utm_campaign=representative-tant-allison-d-district-9-tallahassee-4
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-senate-session/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-senate-session
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-house-insurance-banking-subcommittee/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-house-insurance-banking-subcommittee
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-social-services-estimating-conference-counties-contributions-to-medicaid-county-shares/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-social-services-estimating-conference-counties-contributions-to-medicaid-county-shares
+⏭️ Skipping media or metadata-only link: https://thefloridachannel.org/videos/3-27-25-house-civil-justice-claims-subcommittee/?utm_source=rss&utm_medium=rss&utm_campaign=3-27-25-house-civil-justice-claims-subcommittee

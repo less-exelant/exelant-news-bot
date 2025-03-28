@@ -1,0 +1,8 @@
+openai
+requests
+feedparser
+python-dotenv
+newspaper3k
+gspread
+oauth2client
+lxml[html_clean]
